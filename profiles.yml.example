@@ -1,0 +1,13 @@
+dbt_atree:
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: your_username
+      password: your_password
+      port: 5432
+      dbname: your_database
+      schema: staging
+      threads: 4
+
+  target: dev
