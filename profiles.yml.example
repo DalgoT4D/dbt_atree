@@ -1,23 +1,13 @@
-# Example profiles.yml for dbt_atree project
-# Copy this file to ~/.dbt/profiles.yml and configure your database connection
-
 dbt_atree:
   outputs:
     dev:
-      type: duckdb
-      path: 'dbt_atree.duckdb'
-      # schema: main  # optional, defaults to 'main'
-    
-    # Example for other adapters
-    # postgres:
-    #   type: postgres
-    #   host: localhost
-    #   user: your_username
-    #   password: your_password
-    #   port: 5432
-    #   dbname: your_database
-    #   schema: your_schema
-    #   threads: 4
-    #   keepalives_idle: 0
+      type: postgres
+      host: localhost
+      user: your_username
+      password: your_password
+      port: 5432
+      dbname: your_database
+      schema: staging
+      threads: 4
 
   target: dev

@@ -67,3 +67,10 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# dbt ignore stuff
+target/
+dbt_packages/
+logs/
+profiles.yml
+.user.yml
