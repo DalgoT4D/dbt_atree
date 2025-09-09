@@ -4,7 +4,7 @@ A dbt (data build tool) project for data transformations using uv as the package
 
 ## Prerequisites
 
-- Python 3.12 or higher
+- Python 3.11 or higher
 - uv package manager (https://docs.astral.sh/uv/getting-started/installation/)
 
 ## Setup
